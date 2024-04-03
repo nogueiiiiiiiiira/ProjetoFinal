@@ -1,2 +1,16 @@
 #root {
+
+}
+
+.wrapButtons{
+    display: flex;
+    align-items: flex-start;
+    background-color: beige;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.wrapButtons a{
+    font-weight: bold;
+    text-decoration: none;
 }

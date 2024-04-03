@@ -10,12 +10,12 @@ export default function App() {
           <h1>HOME!</h1>
           <div className={style.wrapTelaInicial}>
             <div className={style.wrapButtons} >
-                <button><a href="/CadastrarLivros">Cadastrar Livros</a></button>
-                <button><a href="/CadastrarLeitores">Cadastrar Leitores</a></button>
-                <button><a href="/CadastrarBibliotecarios">Cadastrar Bibliotecários</a></button>
-                <button><a href="/Multas">Multas</a></button>
-                <button><a href="/Emprestimos">Empréstimos</a></button>
-                <button><a href="/devolucoes">Devoluções</a></button>    
+                <button className={style.buttonTelaInicial} ><a href="/CadastrarLivros">Cadastrar Livros</a></button>
+                <button className={style.buttonTelaInicial} ><a href="/CadastrarLeitores">Cadastrar Leitores</a></button>
+                <button className={style.buttonTelaInicial} ><a href="/CadastrarBibliotecarios">Cadastrar Bibliotecários</a></button>
+                <button className={style.buttonTelaInicial} ><a href="/Multas">Multas</a></button>
+                <button className={style.buttonTelaInicial} ><a href="/Emprestimos">Empréstimos</a></button>
+                <button className={style.buttonTelaInicial} ><a href="/devolucoes">Devoluções</a></button>    
             </div>      
         </div>
         <div className={style.wrapImg}>
