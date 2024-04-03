@@ -12,7 +12,7 @@ body{
     height: auto;
     min-height: 100vh;
     overflow-x: hidden;
-    background-image: url(./assets/biblioteca.jpg);
+    background-image: url(./assets/biblio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

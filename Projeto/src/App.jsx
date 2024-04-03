@@ -1,6 +1,5 @@
 import style from './App.module.css'
 import Menu from './components/Menu'
-import background from './assets/wallpaper2.jpeg';
 
 export default function App() {
 
