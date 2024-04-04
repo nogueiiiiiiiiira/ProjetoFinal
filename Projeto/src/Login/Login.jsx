@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import style from './Login.module.css';
-import Menu from './components/Menu';
+import Menu from '../components/Menu';
 
 export default function Login() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

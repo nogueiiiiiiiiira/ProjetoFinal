@@ -1,6 +1,6 @@
-import Menu from "./components/Menu";
+import Menu from "../components/Menu";
 import React from 'react';
-import LoadingButton from './components/LoandingButton'; 
+import LoadingButton from '../components/LoandingButton'; 
 import style from  './Emprestimos.module.css'
 
 export const Emprestimos = () => {

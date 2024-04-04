@@ -5,13 +5,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import Login from './Login.jsx'
-import { CadastrarLivros } from "./CadastrarLivros.jsx";
-import { CadastrarLeitores } from "./CadastrarLeitores.jsx";
-import { CadastrarBibliotecarios } from "./CadastrarBibliotecario.jsx";
+import Login from './Login/Login.jsx'
+import { CadastrarLivros } from "./Livros/CadastrarLivros.jsx";
+import { CadastrarLeitores } from "./Leitores/CadastrarLeitores.jsx";
+import { CadastrarBibliotecarios } from "./Bibliotecarios/CadastrarBibliotecario.jsx";
 import { Multas } from "./Multas.jsx";
-import { Emprestimos } from "./Emprestimos.jsx";
-import { Devolucoes } from "./Devolucoes.jsx";
+import { Emprestimos } from "./Emprestimos/Emprestimos.jsx";
+import { Devolucoes } from "./Devolucoes/Devolucoes.jsx";
 import './index.css'
 
 const router = createBrowserRouter([

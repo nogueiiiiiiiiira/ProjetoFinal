@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './CadastrarBibliotecario.module.css';
-import Menu from './components/Menu';
-import LoadingButton from './components/LoandingButton'; 
+import Menu from '../components/Menu';
+import LoadingButton from '../components/LoandingButton'; 
 
 export const CadastrarBibliotecarios = () => {
     return(

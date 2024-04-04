@@ -1,7 +1,7 @@
-import Menu from "./components/Menu";
+import Menu from "../components/Menu";
 import style from  './Devolucoes.module.css'
 import React from 'react';
-import LoadingButton from './components/LoandingButton'; 
+import LoadingButton from '../components/LoandingButton'; 
 
 export const Devolucoes = () => {
     return(
