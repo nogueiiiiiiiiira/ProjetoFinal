@@ -31,7 +31,7 @@ h2{
     background-color: #ffffff;
     border-radius: 20px !important;
     width: 20vw;
-    height: 31vh;
+    height: 35vh;
 }
 
 .wrapBibliotecarios input {
@@ -39,7 +39,7 @@ h2{
     flex-direction: column;
     padding: 5px;
     margin: 5px;
-    width: 10vw;
+    width: 12vw;
 
 }
 
