@@ -5,19 +5,25 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import App from './App.jsx'
+import Login from './Login.jsx'
 import { CadastrarLivros } from "./CadastrarLivros.jsx";
 import { CadastrarLeitores } from "./CadastrarLeitores.jsx";
 import { CadastrarBibliotecarios } from "./CadastrarBibliotecario.jsx";
 import { Multas } from "./Multas.jsx";
 import { Emprestimos } from "./Emprestimos.jsx";
+import { Devolucoes } from "./Devolucoes.jsx";
 import './index.css'
 
 const router = createBrowserRouter([
 
   {
     path: "/",
-    element:  <App />
+    element:  <Login />
+  },
+
+  {
+    path: "/CadastrarBibliotecarios",
+    element:  <CadastrarBibliotecarios />
   },
 
   {
@@ -29,23 +35,22 @@ const router = createBrowserRouter([
     path: "/CadastrarLeitores",
     element:  <CadastrarLeitores />
   },
-
+  
   {
-    path: "/CadastrarBibliotecarios",
-    element:  <CadastrarBibliotecarios />
+    path: "/Emprestimos",
+    element:  <Emprestimos />
+  },
+  
+  {
+    path: "/Devolucoes",
+    element:  <Devolucoes />
   },
 
   {
     path: "/Multas",
     element:  <Multas />
   },
-
-  {
-    path: "/Emprestimos",
-    element:  <Emprestimos />
-  },
-
-
+  
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

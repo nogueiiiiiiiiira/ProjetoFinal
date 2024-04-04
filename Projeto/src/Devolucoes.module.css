@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -5,9 +6,6 @@
 
 h2{
     padding-bottom: 15px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }
 
 .container {
@@ -25,7 +23,7 @@ h2{
     width: 100%;
 }
 
-.wrapMultas {
+.wrapDevolucoes {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -38,14 +36,14 @@ h2{
     height: 31vh;
 }
 
-.wrapInputsMultas input {
+.wrapDevolucoes input {
     display: flex;
     flex-direction: column;
     padding: 5px;
     margin: 5px;
 }
 
-.wrapButtonsMultas button {
+.wrapButtonDevolucoes button {
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -56,7 +54,7 @@ h2{
     transition: 0.2ms;
 }
 
-.wrapButtonsMultas button:hover {
+.wrapButtonDevolucoes button:hover {
     background-color: #097807;
     transform: scale(1.1);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
