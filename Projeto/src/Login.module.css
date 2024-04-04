@@ -39,6 +39,8 @@
     margin: 5px;
     justify-content: center;
     align-items: center;
+    width: 10vw;
+
 }
 
 .wrapButtonLogin button {
@@ -48,9 +50,22 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 10px;
+}
+
+.wrapButtonLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .wrapButtonLogin button:hover {
     background-color: #097807;
+}
+
+.wrapInputsLogin{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }

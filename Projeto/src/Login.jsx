@@ -28,11 +28,13 @@ export default function Login() {
         <div className={style.wrapLogin}>
             <h2>Entrar</h2>
           <form onSubmit={handleLoginSubmit}>
+            <div className={style.wrapInputsLogin} >
             <input name='login' id='login' type="text" placeholder='Login: ' />
             <input name='senha' id='senha' type="password" placeholder='Senha: ' />
+            </div>
+            <br />
             <div className={style.wrapButtonLogin}>
               <button type="submit">Entrar</button>
-              <br />
               <br />
               <p><a href="">Não tem uma conta? Cadastre-se!</a></p>
             </div>

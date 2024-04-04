@@ -12,11 +12,11 @@ export const Multas = () => {
             <div className={style.wrapMultas}>
                 <h2>Pagar Multa</h2>
             <div className={style.wrapInputsMultas}>
-                <input placeholder='CPF do leitor(a):' type="text" name="multasCPFLeitor" id="multasCPFLeitor" />
-                <input placeholder='ID do livro:' type="text" name="multasIDLivro" id="multasIDLivro" />
+                <input placeholder='Digite o CPF do leitor(a):' type="text" name="multasCPFLeitor" id="multasCPFLeitor" />
+                <input placeholder='Digite o ID do livro:' type="text" name="multasIDLivro" id="multasIDLivro" />
                 <br />
                 <h2>OU</h2>
-                <input placeholder='Número do empréstimo: ' type="text" name="numeroEmprestimo" id="numeroEmprestimo" />
+                <input placeholder='Digite o número do empréstimo: ' type="text" name="numeroEmprestimoMul" id="numeroEmprestimoMul" />
             </div>
             <br />
             <div className={style.wrapButtonsMultas}>

@@ -13,10 +13,12 @@ export const Devolucoes = () => {
                 <div>
                     <h2>Efetuar Devolução</h2>
                 </div>
-                <input placeholder="CPF do leitor(a): " type="text" name="cpfLeitorEmprestimo" id="cpfLeitorEmprestimo"/>
-                <input placeholder="ID do livro: " type="text" name="idLivroEmprestimo" id="idLivroEmprestimo" />
-                <input type="date" name="dataEmprestimo" id="dataEmprestimo"/>
+                <input placeholder="Digite o CPF do leitor(a): " type="text" name="cpfLeitorEmprestimo" id="cpfLeitorEmprestimo"/>
+                <input placeholder="Digite o ID do livro: " type="text" name="idLivroEmprestimo" id="idLivroEmprestimo" />
+                <input type="date" name="dataDev" id="dataDev"/>
                 <br />
+                <h2>OU</h2>
+                <input placeholder='Digite o número do empréstimo: ' type="text" name="numeroEmprestimoDev" id="numeroEmprestimoDev" />
             <div className={style.wrapButtonDevolucoes}>
                 <LoadingButton />
             </div>

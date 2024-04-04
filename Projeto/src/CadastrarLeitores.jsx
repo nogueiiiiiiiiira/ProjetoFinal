@@ -14,11 +14,11 @@ export const CadastrarLeitores = () => {
                 <div>
                     <h2>Cadastrar Leitores</h2>
                 </div>
-                <input name="nomeLeitor" id="nomeLeitor" type="text" placeholder='Nome do(a) leitor(a): '/>
-                <input name='sobrenomeLeitor' id="sobrenomeLeitor" type="text" placeholder='Sobrenome do(a) leitor(a): '/>
-                <input name="telefoneLeitor" id="telefoneLeitor" type="text" placeholder='Telefone do(a) leitor(a): '/>
-                <input name='cpfLeitor' id="cpfLeitor" type="text" placeholder='CPF do(a) leitor(a): '/>
-                <input name="emailLeitor" id="emailLeitor" type="text" placeholder='Email do(a) leitor(a): '/>
+                <input name="nomeLeitor" id="nomeLeitor" type="text" placeholder='Digite o nome: '/>
+                <input name='sobrenomeLeitor' id="sobrenomeLeitor" type="text" placeholder='Digite o sobrenome:'/>
+                <input name="telefoneLeitor" id="telefoneLeitor" type="text" placeholder='Digite o telefone: '/>
+                <input name='cpfLeitor' id="cpfLeitor" type="text" placeholder='Digite o CPF: '/>
+                <input name="emailLeitor" id="emailLeitor" type="text" placeholder='Digite o email:'/>
                 <br />
                 <div className={style.wrapButtonLeitores} >
                     <LoadingButton />

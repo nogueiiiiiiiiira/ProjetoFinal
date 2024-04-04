@@ -13,8 +13,8 @@ export const Emprestimos = () => {
                 <div>
                     <h2>Efetuar Empréstimo</h2>
                 </div>
-                <input placeholder="CPF do leitor(a): " type="text" name="cpfLeitorEmprestimo" id="cpfLeitorEmprestimo"/>
-                <input placeholder="ID do livro: " type="text" name="idLivroEmprestimo" id="idLivroEmprestimo" />
+                <input placeholder="Digite o CPF do leitor(a): " type="text" name="cpfLeitorEmprestimo" id="cpfLeitorEmprestimo"/>
+                <input placeholder="Digite o ID do livro: " type="text" name="idLivroEmprestimo" id="idLivroEmprestimo" />
                 <input type="date" name="dataEmprestimo" id="dataEmprestimo"/>
                 <br />
                 <div className={style.wrapButtonEmprestimo} >

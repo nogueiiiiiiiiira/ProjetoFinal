@@ -36,6 +36,8 @@
     flex-direction: column;
     padding: 5px;
     margin: 5px;
+    width: 10vw;
+
 }
 
 .wrapLivros select {
@@ -43,6 +45,7 @@
     flex-direction: column;
     padding: 5px;
     margin: 5px;
+    width: 10.85vw;
 }
 
 .wrapButtonLivros button {
