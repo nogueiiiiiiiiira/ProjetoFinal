@@ -36,7 +36,7 @@ export default function Login() {
             <div className={style.wrapButtonLogin}>
               <button type="submit">Entrar</button>
               <br />
-              <p><a href="">Não tem uma conta? Cadastre-se!</a></p>
+              <p><a href="/PrimeiroAcesso">Não tem uma conta? Cadastre-se!</a></p>
             </div>
           </form>
         </div>

@@ -8,7 +8,7 @@ export default function Menu(){
             <nav>
                 <ul className={style.gap} >
                     <li className={style.dropDown}>
-                        <a href="">BIBLIOTECÁRIOS</a>
+                        <a>BIBLIOTECÁRIOS</a>
                         <div className={style.dropdownMenu} >
                             <a href="/CadastrarBibliotecarios">Cadastrar Bibliotecários</a>
                             <a href="">Editar Bibliotecários</a>
@@ -18,7 +18,7 @@ export default function Menu(){
                         </div>
                     </li>
                     <li className={style.dropDown}>
-                        <a href="">LIVROS</a>
+                        <a>LIVROS</a>
                         <div className={style.dropdownMenu} >
                             <a href="/CadastrarLivros">Cadastrar Livros</a>
                             <a href="">Editar Livros</a>
@@ -28,7 +28,7 @@ export default function Menu(){
                         </div>
                     </li>
                     <li className={style.dropDown}>
-                        <a href="">LEITORES</a>
+                        <a>LEITORES</a>
                         <div className={style.dropdownMenu} >
                             <a href="/CadastrarLeitores">Cadastrar Leitores</a>
                             <a href="">Editar Leitores</a>
@@ -38,7 +38,7 @@ export default function Menu(){
                         </div>
                     </li>
                     <li className={style.dropDown}>
-                        <a href="">EMPRÉSTIMOS</a>
+                        <a>EMPRÉSTIMOS</a>
                         <div className={style.dropdownMenu} >
                             <a href="/Emprestimos">Efetuar Empréstimo</a>
                             <a href="">Visualizar Empréstimos</a>
@@ -46,7 +46,7 @@ export default function Menu(){
                         </div>
                     </li>
                     <li className={style.dropDown}>
-                        <a href="">DEVOLUÇÕES</a>
+                        <a>DEVOLUÇÕES</a>
                         <div className={style.dropdownMenu} >
                             <a href="/Devolucoes">Efetuar Devoluções</a>
                             <a href="">Visualizar Devoluções</a>
@@ -54,7 +54,7 @@ export default function Menu(){
                         </div>
                     </li>
                     <li className={style.dropDown}>
-                        <a href="">MULTAS</a>
+                        <a>MULTAS</a>
                         <div className={style.dropdownMenu} >
                             <a href="/Multas">Efetuar Multas</a>
                             <a href="">Visualizar Multas</a>
@@ -62,7 +62,7 @@ export default function Menu(){
                         </div>
                     </li>
                     <li className={style.dropDown}>
-                        <a href="/">AÇÕES</a>
+                        <a>AÇÕES</a>
                         <div className={style.dropdownMenu} >
                             <a href="/">Sair</a>
                             <br />

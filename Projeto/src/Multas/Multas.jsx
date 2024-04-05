@@ -1,7 +1,7 @@
-import style from './Multas.module.css'
-import Menu from './components/Menu'
+import style from './Multas.module.css';
 import React from 'react';
-import LoadingButton from './components/LoandingButton'; 
+import LoadingButton from '../components/LoandingButton';
+import Menu from '../components/Menu';
 
 export const Multas = () => {
     return(

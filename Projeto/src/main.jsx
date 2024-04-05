@@ -9,10 +9,11 @@ import Login from './Login/Login.jsx'
 import { CadastrarLivros } from "./Livros/CadastrarLivros.jsx";
 import { CadastrarLeitores } from "./Leitores/CadastrarLeitores.jsx";
 import { CadastrarBibliotecarios } from "./Bibliotecarios/CadastrarBibliotecario.jsx";
-import { Multas } from "./Multas.jsx";
+import { Multas } from "./Multas/Multas.jsx";
 import { Emprestimos } from "./Emprestimos/Emprestimos.jsx";
 import { Devolucoes } from "./Devolucoes/Devolucoes.jsx";
 import './index.css'
+import { PrimeiroAcesso } from "./Login/PrimeiroAcesso.jsx";
 
 const router = createBrowserRouter([
 
@@ -50,6 +51,11 @@ const router = createBrowserRouter([
     path: "/Multas",
     element:  <Multas />
   },
+
+  {
+    path: "/PrimeiroAcesso",
+    element: <PrimeiroAcesso />
+  }
   
 ])
 
