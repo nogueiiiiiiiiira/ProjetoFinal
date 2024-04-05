@@ -14,6 +14,11 @@ import { Emprestimos } from "./Emprestimos/Emprestimos.jsx";
 import { Devolucoes } from "./Devolucoes/Devolucoes.jsx";
 import './index.css'
 import { PrimeiroAcesso } from "./Login/PrimeiroAcesso.jsx";
+import { EditarBibliotecarios } from "./Bibliotecarios/EditarBibliotecario.jsx";
+import { ExcluirBibliotecarios } from "./Bibliotecarios/ExcluirBibliotecarios.jsx";
+import { EditarLivros } from "./Livros/EditarLivros.jsx";
+import { ExcluirLivros } from "./Livros/ExcluirLivros.jsx";
+
 
 const router = createBrowserRouter([
 
@@ -55,6 +60,26 @@ const router = createBrowserRouter([
   {
     path: "/PrimeiroAcesso",
     element: <PrimeiroAcesso />
+  },
+
+  {
+    path: "/EditarBibliotecarios",
+    element: <EditarBibliotecarios />
+  },
+
+  {
+    path: '/EditarLivros',
+    element: <EditarLivros />
+  },
+
+  {
+    path: '/ExcluirLivros',
+    element: <ExcluirLivros />
+  },
+
+  {
+    path: '/ExcluirBibliotecarios',
+    element: <ExcluirBibliotecarios />
   }
   
 ])

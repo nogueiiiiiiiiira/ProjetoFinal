@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+h2{
+    padding-bottom: 15px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -18,20 +22,19 @@
     width: 100%;
 }
 
-.wrapLivros {
+.wrapBibliotecarios {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 20px;
     border: 3px solid #007bff;
-    border-radius: 5px;
     background-color: #ffffff;
     border-radius: 20px !important;
     width: 20vw;
     height: 35vh;
 }
 
-.wrapLivros input {
+.wrapBibliotecarios input {
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -40,27 +43,25 @@
 
 }
 
-.wrapLivros select {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    margin: 5px;
-    width: 12vw;
-}
-
-.wrapButtonLivros button {
+.wrapButtonBibliotecarios button {
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 5px;
+    margin: 10px;
     transition: 0.2ms;
 }
 
-.wrapButtonLivros button:hover {
+.wrapButtonBibliotecarios button:hover {
     background-color: #097807;
     transform: scale(1.1);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
 }

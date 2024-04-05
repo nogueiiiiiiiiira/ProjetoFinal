@@ -11,8 +11,8 @@ export default function Menu(){
                         <a>BIBLIOTECÁRIOS</a>
                         <div className={style.dropdownMenu} >
                             <a href="/CadastrarBibliotecarios">Cadastrar Bibliotecários</a>
-                            <a href="">Editar Bibliotecários</a>
-                            <a href="">Excluir Bibliotecários</a>
+                            <a href="/EditarBibliotecarios">Editar Bibliotecários</a>
+                            <a href="/ExcluirBibliotecarios">Excluir Bibliotecários</a>
                             <a href="">Visualizar Bibliotecários</a>
                             <br />
                         </div>
@@ -21,8 +21,8 @@ export default function Menu(){
                         <a>LIVROS</a>
                         <div className={style.dropdownMenu} >
                             <a href="/CadastrarLivros">Cadastrar Livros</a>
-                            <a href="">Editar Livros</a>
-                            <a href="">Excluir Livros</a>
+                            <a href="/EditarLivros">Editar Livros</a>
+                            <a href="/ExcluirLivros">Excluir Livros</a>
                             <a href="">Visualizar Livros</a>
                             <br />
                         </div>
