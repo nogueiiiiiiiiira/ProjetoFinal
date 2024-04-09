@@ -7,7 +7,7 @@ export const PrimeiroAcesso = () => {
         <div className={style.container}>
             <div className={style.wrapBibliotecarios}>
                 <div>
-                    <h2>Cadastrar Bibliotecário</h2>
+                    <h2>Cadastrar-se</h2>
                 </div>
                 <input name='nomeBibliotecarioPA' id='nomeBibliotecarioPA' type="text" placeholder='Digite o nome: '/>
                 <input name='sobrenomeBibliotecarioPA' id='sobrenomeBibliotecarioPA' type="text" placeholder='Digite o sobrenome: '/>

@@ -64,6 +64,7 @@ export default function Menu(){
                     <li className={style.dropDown}>
                         <a>AÇÕES</a>
                         <div className={style.dropdownMenu} >
+                            <a href="">Visualizar Histórico</a>
                             <a href="/">Sair</a>
                             <br />
                         </div>
