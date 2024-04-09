@@ -19,7 +19,7 @@ export const Devolucoes = () => {
                 <br />
                 <h2>OU</h2>
                 <input placeholder='Digite o número do empréstimo: ' type="text" name="numeroEmprestimoDev" id="numeroEmprestimoDev" />
-            <div className={style.wrapButtonDevolucoes}>
+                <div className={style.wrapButtonDevolucoes}>
                 <LoadingButton />
             </div>
             </div>

@@ -31,8 +31,8 @@ export default function Menu(){
                         <a>LEITORES</a>
                         <div className={style.dropdownMenu} >
                             <a href="/CadastrarLeitores">Cadastrar Leitores</a>
-                            <a href="">Editar Leitores</a>
-                            <a href="">Excluir Leitores</a>
+                            <a href="/EditarLeitores">Editar Leitores</a>
+                            <a href="/ExcluirLeitores">Excluir Leitores</a>
                             <a href="">Visualizar Leitores</a>
                             <br />
                         </div>

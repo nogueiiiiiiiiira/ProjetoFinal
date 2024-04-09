@@ -18,6 +18,8 @@ import { EditarBibliotecarios } from "./Bibliotecarios/EditarBibliotecario.jsx";
 import { ExcluirBibliotecarios } from "./Bibliotecarios/ExcluirBibliotecarios.jsx";
 import { EditarLivros } from "./Livros/EditarLivros.jsx";
 import { ExcluirLivros } from "./Livros/ExcluirLivros.jsx";
+import { EditarLeitores } from "./Leitores/EditarLeitores.jsx";
+import { ExcluirLeitores } from "./Leitores/ExcluirLeitores.jsx";
 
 
 const router = createBrowserRouter([
@@ -80,6 +82,16 @@ const router = createBrowserRouter([
   {
     path: '/ExcluirBibliotecarios',
     element: <ExcluirBibliotecarios />
+  },
+
+  {
+    path: '/EditarLeitores',
+    element: <EditarLeitores />
+  },
+
+  {
+    path: '/ExcluirLeitores',
+    element: <ExcluirLeitores />
   }
   
 ])
