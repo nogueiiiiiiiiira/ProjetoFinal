@@ -17,7 +17,6 @@ export const ExcluirLeitores = () => {
                 <input name='sobrenomeLeitoresExcluir' id='sobrenomeLeitoresExcluir' type="text" placeholder='Digite o sobrenome: '/>
                 <input name="telefoneLeitorExcluir" id="telefoneLeitorExcluir" type="text" placeholder='Digite o telefone: '/>
                 <input name='cpfLeitoresExcluir' id='cpfLeitoresExcluir' type="text" placeholder='Digite o CPF: '/>
-                <input name='emailLeitoresExcluir' id='emailLeitoresExcluir' type="text" placeholder='Digite o email:'/>
                 <div className={style.wrapButtonLeitores}>
                     <button>Excluir</button>
                 </div>

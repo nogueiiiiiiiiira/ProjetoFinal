@@ -18,7 +18,6 @@ export const CadastrarLeitores = () => {
                 <input name='sobrenomeLeitor' id="sobrenomeLeitor" type="text" placeholder='Digite o sobrenome:'/>
                 <input name="telefoneLeitor" id="telefoneLeitor" type="text" placeholder='Digite o telefone: '/>
                 <input name='cpfLeitor' id="cpfLeitor" type="text" placeholder='Digite o CPF: '/>
-                <input name="emailLeitor" id="emailLeitor" type="text" placeholder='Digite o email:'/>
                 <div className={style.wrapButtonLeitores} >
                     <LoadingButton />
                 </div>

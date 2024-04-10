@@ -17,7 +17,6 @@ export const EditarLeitores = () => {
                 <input name='sobrenomeLeitoresEd' id='sobrenomeLeitoresEd' type="text" placeholder='Digite o sobrenome: '/>
                 <input name="telefoneLeitorEd" id="telefoneLeitorEd" type="text" placeholder='Digite o telefone: '/>
                 <input name='cpfLeitoresEd' id='cpfLeitoresEd' type="text" placeholder='Digite o CPF: '/>
-                <input name='emailLeitoresEd' id='emailLeitoresEd' type="text" placeholder='Digite o email:'/>
             </div>
             <br />
             <div className={style.wrapLeitores}>
@@ -28,7 +27,6 @@ export const EditarLeitores = () => {
                 <input name='sobrenomeLeitoresEditar' id='sobrenomeLeitoresEditar' type="text" placeholder='Digite o sobrenome: '/>
                 <input name="telefoneLeitorEditar" id="telefoneLeitorEditar" type="text" placeholder='Digite o telefone: '/>
                 <input name='cpfLeitoresEditar' id='cpfLeitoresEditar' type="text" placeholder='Digite o CPF: '/>
-                <input name='emailLeitoresEditar' id='emailLeitoresEditar' type="text" placeholder='Digite o email:'/>
                 <div className={style.wrapButtonLeitores}>
                     <button>Editar</button>
                 </div>

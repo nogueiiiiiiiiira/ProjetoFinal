@@ -16,11 +16,10 @@ export const Devolucoes = () => {
                 <input placeholder="Digite o CPF do leitor(a): " type="text" name="cpfLeitorEmprestimo" id="cpfLeitorEmprestimo"/>
                 <input placeholder="Digite o ID do livro: " type="text" name="idLivroEmprestimo" id="idLivroEmprestimo" />
                 <input type="date" name="dataDev" id="dataDev"/>
-                <br />
                 <h2>OU</h2>
                 <input placeholder='Digite o número do empréstimo: ' type="text" name="numeroEmprestimoDev" id="numeroEmprestimoDev" />
                 <div className={style.wrapButtonDevolucoes}>
-                <LoadingButton />
+                <button>Efetuar</button>
             </div>
             </div>
         </div>

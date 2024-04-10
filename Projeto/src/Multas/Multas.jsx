@@ -18,9 +18,8 @@ export const Multas = () => {
                 <h2>OU</h2>
                 <input placeholder='Digite o número do empréstimo: ' type="text" name="numeroEmprestimoMul" id="numeroEmprestimoMul" />
             </div>
-            <br />
             <div className={style.wrapButtonsMultas}>
-            <LoadingButton />
+            <button>Pagar</button>
             </div>
 
         </div>

@@ -17,7 +17,7 @@ export const ExcluirLivros = () => {
                 <input type="text" placeholder='Digite a categoria: ' name='categoria' id='categoriaLivro'/>
                 <br />
                 <div className={style.wrapButtonLivros}>
-                    <button>Editar</button>
+                    <button>Excluir</button>
                 </div>
             </div>
         </div>
