@@ -6,22 +6,19 @@ import LoadingButton from '../components/LoandingButton';
 export const Devolucoes = () => {
     return(
         <div className={style.container}>
-            <div className={style.menu}>
-            <Menu />
-            </div>
-            <div className={style.wrapDevolucoes}>
-                <div>
-                    <h2>Efetuar Devolução</h2>
-                </div>
-                <input placeholder="Digite o CPF do leitor(a): " type="text" name="cpfLeitorEmprestimo" id="cpfLeitorEmprestimo"/>
-                <input placeholder="Digite o ID do livro: " type="text" name="idLivroEmprestimo" id="idLivroEmprestimo" />
-                <input type="date" name="dataDev" id="dataDev"/>
-                <h2>OU</h2>
-                <input placeholder='Digite o número do empréstimo: ' type="text" name="numeroEmprestimoDev" id="numeroEmprestimoDev" />
-                <div className={style.wrapButtonDevolucoes}>
-                <button>Efetuar</button>
-            </div>
-            </div>
-        </div>
+        <div className={style.menu}>
+          <Menu />
+      </div>
+  <h2>Make a Return</h2>
+  <br />
+  <form className={style.inputs}>
+    <input name='title' id='title' type="text" placeholder="type book's full title: " required />
+    <input name='cpf' id='cpf' type="text" placeholder="type reader's cpf: " required />
+    <h3>OR</h3>
+    <input name='id' id='id' type="text" placeholder="type loan's id: " required />
+    <br />
+    <input className={style.button} type="submit" value="Return" />
+  </form>
+</div>
     )
 }

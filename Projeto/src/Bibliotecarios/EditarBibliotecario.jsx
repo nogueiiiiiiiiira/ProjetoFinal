@@ -4,35 +4,35 @@ import Menu from '../components/Menu';
 
 export const EditarBibliotecarios = () => {
     return(
-        <div  className={style.container}>
+        <div  className={style.body}>
             <div className={style.menu}>
                 <Menu />
             </div>
             <div className={style.row}>
-            <div className={style.wrapBibliotecarios}>
-                <div>
-                    <h2>Dados Atuais</h2>
-                </div>
-                <input name='nomeBibliotecarioEd' id='nomeBibliotecarioEd' type="text" placeholder='Digite o nome: '/>
-                <input name='sobrenomeBibliotecarioEd' id='sobrenomeBibliotecarioEd' type="text" placeholder='Digite o sobrenome: '/>
-                <input name='cpfBibliotecarioEd' id='cpfBibliotecarioEd' type="text" placeholder='Digite o CPF: '/>
-                <input name='emailBibliotecarioEd' id='emailBibliotecarioEd' type="text" placeholder='Digite o email:'/>
+            <div className={style.container}>
+                 <h2>Current Data</h2>
+                 <br />
+                 <form className={style.inputs}>
+                <input name='name' id='name' type="text" disabled/>
+                <input name='cpf' id='cpf' type="text" disabled/>
+                <input name='email' id='email' type="text" disabled/>
+                <input name='password' id='password' type="text" disabled/>
+                 </form>
             </div>
             <br />
-            <div className={style.wrapBibliotecarios}>
-                <div>
-                    <h2>Editar Bibliotecário</h2>
-                </div>
-                <input name='nomeBibliotecarioEditar' id='nomeBibliotecarioEditar' type="text" placeholder='Digite o nome: '/>
-                <input name='sobrenomeBibliotecarioEditar' id='sobrenomeBibliotecarioEditar' type="text" placeholder='Digite o sobrenome: '/>
-                <input name='cpfBibliotecarioEditar' id='cpfBibliotecarioEditar' type="text" placeholder='Digite o CPF: '/>
-                <input name='emailBibliotecarioEditar' id='emailBibliotecarioEditar' type="text" placeholder='Digite o email:'/>
+            <div className={style.container}>
+                <h2>Edit a Librarian</h2>
+                <form className={style.inputs}>
+                <input name='nameEditar' id='nameEditar' type="text" placeholder="edit librarian's full name': " required/>
+                <input name='cpfEditar' id='cpfEditar' type="text" placeholder="edit librarian's cpf" required/>
+                <input name='emailEditar' id='emailEditar' type="text" placeholder="edit librarian's email:" required/>
+                <input name='passwordEditar' id='passwordEditar' type="password" placeholder="edit librarian's password:" required/>
+                <input name='passwordEditar' id='passwordEditar' type="password" placeholder="repeat librarian's password:" required/>
                 <br />
-                <div className={style.wrapButtonBibliotecarios}>
-                    <button>Editar</button>
+                <input className={style.button} type="submit" value="Edit" />
+                </form>
                 </div>
             </div>
             </div>
-        </div>
     )
 }

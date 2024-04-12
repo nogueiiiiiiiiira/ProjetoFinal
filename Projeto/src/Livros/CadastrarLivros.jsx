@@ -6,27 +6,24 @@ import LoadingButton from '../components/LoandingButton';
 export const CadastrarLivros = () => {
     return (
         <div className={style.container}>
-            <div className={style.menu}>
-                <Menu />
-            </div>
-            <div className={style.wrapLivros}>
-                <div>
-                    <h2>Cadastrar Livro</h2>
-                </div>
-                <input type="text" placeholder='Digite o título do livro:' name='tituloLivro' id='tituloLivro'/>
-                <input type="text" placeholder='Digite o autor do livro: ' name='autorLivro' id='autorLivro'/>
-                <select name="categoriaLivro" id="categoriaLivro">
-                    <option value="">Selecione a categoria:</option>
-                    <option value="ficcao">Ficção</option>
-                    <option value="nao-ficcao">Não Ficção</option>
-                    <option value="aventura">Aventura</option>
-                    <option value="romance">Romance</option>
-                </select>
-                <br />
-                <div className={style.wrapButtonLivros}>
-                <LoadingButton />
-                </div>
-            </div>
-        </div>
+        <div className={style.menu}>
+          <Menu />
+      </div>
+  <h2>Register a Book</h2>
+  <br />
+  <form className={style.inputs}>
+    <input name='title' id='title' type="text" placeholder="type book's full title: " required />
+    <input name='author' id='author' type="text" placeholder="type book's author: " required />
+    <select name="category" id="category">
+        <option value="">Select the category:</option>
+        <option value="ficcao">Ficção</option>
+        <option value="nao-ficcao">Não Ficção</option>
+        <option value="aventura">Aventura</option>
+        <option value="romance">Romance</option>
+    </select>
+    <br />
+    <input className={style.button} type="submit" value="Register" />
+  </form>
+</div>
     )
 }

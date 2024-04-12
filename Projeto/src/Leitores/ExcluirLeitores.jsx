@@ -4,24 +4,21 @@ import style from './ExcluirLeitores.module.css';
 
 export const ExcluirLeitores = () => {
     return(
-        <div  className={style.container}>
-            <div className={style.menu}>
-                <Menu />
-            </div>
-            <div className={style.row}>
-            <div className={style.wrapLeitores}>
-                <div>
-                    <h2>Excluir Leitor</h2>
-                </div>
-                <input name='nomeLeitoresExcluir' id='nomeLeitoresExcluir' type="text" placeholder='Digite o nome: '/>
-                <input name='sobrenomeLeitoresExcluir' id='sobrenomeLeitoresExcluir' type="text" placeholder='Digite o sobrenome: '/>
-                <input name="telefoneLeitorExcluir" id="telefoneLeitorExcluir" type="text" placeholder='Digite o telefone: '/>
-                <input name='cpfLeitoresExcluir' id='cpfLeitoresExcluir' type="text" placeholder='Digite o CPF: '/>
-                <div className={style.wrapButtonLeitores}>
-                    <button>Excluir</button>
-                </div>
-            </div>
-            </div>
-        </div>
+        <div className={style.container}>
+        <div className={style.menu}>
+          <Menu />
+      </div>
+  <h2>Delete a Reader</h2>
+  <br />
+  <form className={style.inputs}>
+    <input name='cpf' id='cpf' type="text" placeholder="type reader's cpf: " required />
+    <h3>OR</h3>
+    <input name='email' id='email' type="text" placeholder="type reader's email: " required />
+    <h3>OR</h3>
+    <input name='phone' id='phone' type="text" placeholder="type reader's phone: " required />
+    <br />
+    <input className={style.button} type="submit" value="Delete" />
+  </form>
+</div>
     )
 }

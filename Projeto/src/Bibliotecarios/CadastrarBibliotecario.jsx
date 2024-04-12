@@ -6,22 +6,20 @@ import LoadingButton from '../components/LoandingButton';
 export const CadastrarBibliotecarios = () => {
     return(
         <div className={style.container}>
-            <div className={style.menu}>
+              <div className={style.menu}>
                 <Menu />
             </div>
-            <div className={style.wrapBibliotecarios}>
-                <div>
-                    <h2>Cadastrar Bibliotecário</h2>
-                </div>
-                <input name='nomeBibliotecario' id='nomeBibliotecario' type="text" placeholder='Digite o nome: '/>
-                <input name='sobrenomeBibliotecario' id='sobrenomeBibliotecario' type="text" placeholder='Digite o sobrenome: '/>
-                <input name='cpfBibliotecario' id='cpfBibliotecario' type="text" placeholder='Digite o CPF: '/>
-                <input name='emailBibliotecario' id='emailBibliotecario' type="text" placeholder='Digite o email:'/>
-                <br />
-                <div className={style.wrapButtonBibliotecarios}>
-                    <LoadingButton />
-                </div>
-            </div>
-        </div>
+        <h2>Register a Librarian</h2>
+        <br />
+        <form className={style.inputs}>
+          <input name='name' id='name' type="text" placeholder="type librarian's full name: " required />
+          <input name='cpf' id='cpf' type="text" placeholder="type librarian's cpf: " required />
+          <input name='email' id='email' type="text" placeholder="type librarian's email: " required />
+          <input name='password' id='password' type="password" placeholder="type librarian's password: " required />
+          <input name='password' id='password' type="password" placeholder="repeat librarian's password: " required />
+          <br />
+          <input className={style.button} type="submit" value="Register" />
+        </form>
+      </div>
     )
 }

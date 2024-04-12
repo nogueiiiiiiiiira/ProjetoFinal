@@ -4,39 +4,39 @@ import Menu from '../components/Menu';
 
 export const EditarLivros = () => {
     return(
-        <div  className={style.container}>
-            <div className={style.menu}>
-                <Menu />
-            </div>
-            <div className={style.row}>
-            <div className={style.wrapLivros}>
-                <div>
-                    <h2>Dados Atuais</h2>
-                </div>
-                <input type="text" placeholder='Digite o título do livro:' name='tituloLivro' id='tituloLivro'/>
-                <input type="text" placeholder='Digite o autor do livro: ' name='autorLivro' id='autorLivro'/>
-                <input type="text" placeholder='Digite a categoria: ' name='categoria' id='categoriaLivro'/>
-            </div>
+        <div  className={style.body}>
+        <div className={style.menu}>
+            <Menu />
+        </div>
+        <div className={style.row}>
+        <div className={style.container}>
+             <h2>Current Data</h2>
+             <br />
+             <form className={style.inputs}>
+            <input name='title' id='title' type="text" disabled/>
+            <input name='author' id='author' type="text" disabled/>
+            <input name='category' id='category' type="text" disabled/>
+             </form>
+        </div>
+        <br />
+        <div className={style.container}>
+            <h2>Edit a Book</h2>
             <br />
-            <div className={style.wrapLivros}>
-                <div>
-                    <h2>Editar Livro</h2>
-                </div>
-                <input type="text" placeholder='Digite o título do livro:' name='tituloLivro' id='tituloLivro'/>
-                <input type="text" placeholder='Digite o autor do livro: ' name='autorLivro' id='autorLivro'/>
-                <select name="categoriaLivro" id="categoriaLivro">
-                    <option value="">Selecione a categoria:</option>
-                    <option value="ficcao">Ficção</option>
-                    <option value="nao-ficcao">Não Ficção</option>
-                    <option value="aventura">Aventura</option>
-                    <option value="romance">Romance</option>
-                </select>
-                <br />
-                <div className={style.wrapButtonLivros}>
-                    <button>Editar</button>
-                </div>
+            <form className={style.inputs}>
+            <input name='title' id='title' type="text" placeholder="type book's full title: " required />
+    <input name='author' id='author' type="text" placeholder="type book's author: " required />
+    <select name="category" id="category">
+        <option value="">Select the category:</option>
+        <option value="ficcao">Ficção</option>
+        <option value="nao-ficcao">Não Ficção</option>
+        <option value="aventura">Aventura</option>
+        <option value="romance">Romance</option>
+    </select>
+            <br />
+            <input className={style.button} type="submit" value="Edit" />
+            </form>
             </div>
-            </div>
+        </div>
         </div>
     )
 }

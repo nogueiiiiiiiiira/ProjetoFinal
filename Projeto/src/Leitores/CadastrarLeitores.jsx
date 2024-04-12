@@ -6,22 +6,20 @@ import LoadingButton from '../components/LoandingButton';
 
 export const CadastrarLeitores = () => {
     return(
-        <div className={style.container} >
-            <div className={style.menu}>
+        <div className={style.container}>
+              <div className={style.menu}>
                 <Menu />
             </div>
-            <div className={style.wrapLeitores} >
-                <div>
-                    <h2>Cadastrar Leitores</h2>
-                </div>
-                <input name="nomeLeitor" id="nomeLeitor" type="text" placeholder='Digite o nome: '/>
-                <input name='sobrenomeLeitor' id="sobrenomeLeitor" type="text" placeholder='Digite o sobrenome:'/>
-                <input name="telefoneLeitor" id="telefoneLeitor" type="text" placeholder='Digite o telefone: '/>
-                <input name='cpfLeitor' id="cpfLeitor" type="text" placeholder='Digite o CPF: '/>
-                <div className={style.wrapButtonLeitores} >
-                    <LoadingButton />
-                </div>
-            </div>
-        </div>
+        <h2>Register a Reader</h2>
+        <br />
+        <form className={style.inputs}>
+          <input name='name' id='name' type="text" placeholder="type reader's full name: " required />
+          <input name='cpf' id='cpf' type="text" placeholder="type reader's cpf: " required />
+          <input name='phone' id='phone' type="text" placeholder="type reader's phone: " required />
+          <input name='email' id='email' type="text" placeholder="type reader's email: " required />
+          <br />
+          <input className={style.button} type="submit" value="Register" />
+        </form>
+      </div>
     )
 }

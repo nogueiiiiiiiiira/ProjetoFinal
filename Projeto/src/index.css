@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: "Tilt Neon", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -13,6 +14,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: flex;
 }
 
 a{

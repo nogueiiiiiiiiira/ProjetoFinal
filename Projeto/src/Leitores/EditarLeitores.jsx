@@ -4,34 +4,35 @@ import style from './EditarLeitores.module.css';
 
 export const EditarLeitores = () => {
     return(
-        <div  className={style.container}>
+        <div  className={style.body}>
             <div className={style.menu}>
                 <Menu />
             </div>
             <div className={style.row}>
-            <div className={style.wrapLeitores}>
-                <div>
-                    <h2>Dados Atuais</h2>
-                </div>
-                <input name='nomeLeitoresEd' id='nomeLeitoresEd' type="text" placeholder='Digite o nome: '/>
-                <input name='sobrenomeLeitoresEd' id='sobrenomeLeitoresEd' type="text" placeholder='Digite o sobrenome: '/>
-                <input name="telefoneLeitorEd" id="telefoneLeitorEd" type="text" placeholder='Digite o telefone: '/>
-                <input name='cpfLeitoresEd' id='cpfLeitoresEd' type="text" placeholder='Digite o CPF: '/>
+            <div className={style.container}>
+                 <h2>Current Data</h2>
+                 <br />
+                 <form className={style.inputs}>
+                <input name='name' id='name' type="text" disabled/>
+                <input name='cpf' id='cpf' type="text" disabled/>
+                <input name='email' id='email' type="text" disabled/>
+                <input name='phone' id='phone' type="text" disabled/>
+                 </form>
             </div>
             <br />
-            <div className={style.wrapLeitores}>
-                <div>
-                    <h2>Editar Leitor</h2>
-                </div>
-                <input name='nomeLeitoresEditar' id='nomeLeitoresEditar' type="text" placeholder='Digite o nome: '/>
-                <input name='sobrenomeLeitoresEditar' id='sobrenomeLeitoresEditar' type="text" placeholder='Digite o sobrenome: '/>
-                <input name="telefoneLeitorEditar" id="telefoneLeitorEditar" type="text" placeholder='Digite o telefone: '/>
-                <input name='cpfLeitoresEditar' id='cpfLeitoresEditar' type="text" placeholder='Digite o CPF: '/>
-                <div className={style.wrapButtonLeitores}>
-                    <button>Editar</button>
+            <div className={style.container}>
+                <h2>Edit a Reader</h2>
+                <br />
+                <form className={style.inputs}>
+                <input name='nameEditar' id='nameEditar' type="text" placeholder="edit reader's full name': " required/>
+                <input name='cpfEditar' id='cpfEditar' type="text" placeholder="edit reader's cpf" required/>
+                <input name='emailEditar' id='emailEditar' type="text" placeholder="edit reader's email:" required/>
+                <input name='phoneEditar' id='phoneEditar' type="text" placeholder="edit reader's phone:" required/>
+                <br />
+                <input className={style.button} type="submit" value="Edit" />
+                </form>
                 </div>
             </div>
             </div>
-        </div>
     )
 }

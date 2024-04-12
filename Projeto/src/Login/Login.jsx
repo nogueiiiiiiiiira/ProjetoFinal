@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import style from './Login.module.css';
 import Menu from '../components/Menu';
-import biblio from '../assets/biblio.jpg'
 
 export default function Login() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -21,7 +20,6 @@ export default function Login() {
 
   return (
     <div className={style.body}>
-   
       {isAuthenticated && 
         <div className={style.menu}>
           <Menu />
@@ -30,6 +28,7 @@ export default function Login() {
       {isFormVisible && (
          <div className={style.container}>
           <h2>Login to Continue</h2>
+          <br />
           <form onSubmit={handleLoginSubmit} className={style.inputs}>
             <input name='login' id='login' type="text" placeholder="type your-email@gmail.com: " required />
             <input name='senha' id='senha' type="password" placeholder="type your password: " required />
@@ -40,11 +39,10 @@ export default function Login() {
             </div>
             <br />
             <br />
-            <input className={style.button} type="submit" value="Log In" />
+            <input className={style.button} type="submit" value="Sig In" />
           </form>
           <br />
-          <p><a className={style.firstAcess} href="/PrimeiroAcesso">Não tem uma conta? Cadastre-se!</a></p>
-          <img src={biblio} alt="Image" className={style.image}/>
+          <p><a className={style.firstAcess} href="/PrimeiroAcesso">Don't have an account? Sign up!</a></p>
         </div>
       )}
     </div>
